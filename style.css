@@ -1,0 +1,51 @@
+#CGPA{
+    text-align: center;
+
+    background-color:rgb(59, 99, 55);
+}
+
+.Label{
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.inputfield{
+    text-align: center;
+    width: 90%;
+    background-color: #d8e7d9;
+    color: rgb(10, 10, 10);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+#container{
+    padding: 25px;
+    text-align: center;
+}
+#labelLab{
+    align-content: left;
+}
+#demo{
+    box-sizing: border-box;
+    align-items: center;
+}
+.btn{
+    text-align: center;
+    width: 20%;
+    background-color: #d8e7d9;
+    color: rgb(10, 10, 10);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
