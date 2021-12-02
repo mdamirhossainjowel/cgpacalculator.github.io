@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="CGPA.css"> 
+    <script src="CGPA.js"></script>
     <title>CGPA Calculator</title>
 </head>
 <body>
@@ -22,10 +22,12 @@
     <input class="inputfield" id="valueLabCredit" type="text"></br>
     <button class="btn" id="submit" onclick="calculator(document.getElementById('valueTheory').value,document.getElementById('valueLab').value,document.getElementById('valueTheoryCredit').value,document.getElementById('valueLabCredit').value)">Submit</button>
     <button class="btn" id="Refresh" onclick="Clear(document.getElementById('valueTheory').Clear,document.getElementById('valueLab').Clear,document.getElementById('valueTheoryCredit').Clear,document.getElementById('valueLabCredit').Clear)">Refresh</button></br></br>
-    </form></div>
+    </form></div> 
     <div id="demo"></div><br>
     <br>
-    <button class="btn" id="btn1" onclick="result(document.getElementById('valueTheory').value,document.getElementById('valueLab').value,document.getElementById('valueTheoryCredit').value,document.getElementById('valueLabCredit').value)">Result</button>
+    <div>
+    
+    <button class="btn" id="btn1" onclick="result(document.getElementById('valueTheory').value,document.getElementById('valueLab').value,document.getElementById('valueTheoryCredit').value,document.getElementById('valueLabCredit').value)">Result</button></div>
     <br>
     <p id="show"></p>
 
