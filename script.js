@@ -10,24 +10,24 @@ function calculator(v,x,y,z)
         var label = document.createElement("label");
         label.innerHTML = "Theory subject "+i;      
         label.className="Label";
-        document.body.appendChild(label);
+        document.getElementById("demo").appendChild(label);
 
         var input = document.createElement("input"); 
         input.id= "theory"+i;
         input.className="inputfield";
-        document.body.appendChild(input);
+        document.getElementById("demo").appendChild(input);
     }
     for(let i=1; i<=x;i++)
     {
         var label = document.createElement("label");
         label.innerHTML = "Lab subject"+i;
         label.className="Label";      
-        document.body.appendChild(label);
+        document.getElementById("demo").appendChild(label);
 
         var input = document.createElement("input"); 
         input.id= "lab"+i;
         input.className="inputfield"; 
-        document.body.appendChild(input);
+        document.getElementById("demo").appendChild(input);
     }
    
 }
@@ -49,8 +49,7 @@ function result(j,k,l,m)
         labsub.push(C);
     }
     let D=(sum1+sum2)/((j*l)+(k*m))
-    console.log(theorysub)
-    console.log(labsub)
+
 
 
     document.getElementById('show').innerHTML ="Result is: "+D;
